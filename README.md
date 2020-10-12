@@ -12,4 +12,10 @@ into the model to see what are the most corelating feature for severe accidents.
 depending on the feature status, model can be trained to predict and warn drivers a
 possibility of a crash. 
 ## DATA
-This is an extensive data set from the VicRoad Australia, with over 200,000 observations collected over the last 14+ years. To accurately build a model to prevent future accidents and/or reduce their severity, we will use the following attributes — ADDRTYPE, WEATHER, ROADCOND, VEHCOUNT, PERSONCOUN etc
+The data set is taken from Data.Vic which is the place to discover and access Victorian
+government open data. Crash Stats data is provided to user by VicRoads for the purpose of
+supplying information about road crashes in Victoria for education purposes. This is an
+extensive data with over 14 years from 2006 to 2020 over 200,000 observation across
+Victoria. There are many files with different features. Before dive deep into the data, all the
+features were consolidated to one file.
+
